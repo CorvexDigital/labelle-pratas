@@ -31,12 +31,14 @@
     @media(max-width:640px){.nav nav{display:none}}
 
     /* HERO */
-    .hero{background:linear-gradient(135deg,#fafafa 0%,#e8e6e3 45%,#cfccc8 100%);text-align:center;padding:90px 0 80px}
-    .hero img{width:190px;height:190px;object-fit:contain;margin-bottom:18px}
-    .hero h1{font-size:3.2rem;line-height:1.1;margin-bottom:14px}
-    .hero p{font-size:1.05rem;color:var(--soft);max-width:520px;margin:0 auto;font-weight:300}
-    .hero .loc{margin-top:22px;font-size:.8rem;letter-spacing:2px;text-transform:uppercase;color:var(--silver)}
-    @media(max-width:640px){.hero h1{font-size:2.3rem}}
+    .hero{background:radial-gradient(circle at 28% 26%,#4c4b47 0%,#2a2a28 46%,#151514 100%);text-align:center;padding:120px 0 110px;color:#f1efea}
+    .logo-mark{display:inline-flex;flex-direction:column;align-items:center;margin-bottom:26px}
+    .lm-name{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:5rem;line-height:1;color:#f5f3ee;letter-spacing:1px}
+    .lm-sub{font-family:'Cormorant Garamond',serif;font-weight:400;text-transform:uppercase;letter-spacing:1.15em;font-size:1rem;color:#cfc9bf;margin-top:8px;padding-left:1.15em}
+    .lm-rule{width:54px;height:1px;background:#7d776c;margin:20px auto 0}
+    .hero p{font-size:1.05rem;color:#c9c5bd;max-width:520px;margin:18px auto 0;font-weight:300}
+    .hero .loc{margin-top:22px;font-size:.78rem;letter-spacing:3px;text-transform:uppercase;color:#9a948a}
+    @media(max-width:640px){.lm-name{font-size:3.2rem}.lm-sub{font-size:.85rem}}
 
     /* SECTIONS */
     .label{font-size:.72rem;letter-spacing:3px;text-transform:uppercase;color:var(--silver);text-align:center;margin-bottom:10px}
@@ -45,11 +47,13 @@
     .about{background:var(--bg2)}
 
     /* PRODUCTS */
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px;margin-top:34px}
-    .card{border:1px solid var(--line);padding:34px 24px;text-align:center;background:#fff;transition:.25s}
+    .grid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-top:34px}
+    .card{border:1px solid var(--line);padding:30px 16px;text-align:center;background:#fff;transition:.25s}
     .card:hover{box-shadow:0 8px 26px rgba(0,0,0,.06);transform:translateY(-3px)}
-    .card h3{font-size:1.35rem;margin-bottom:6px}
-    .card p{font-size:.85rem;color:var(--soft)}
+    .card h3{font-size:1.18rem;margin-bottom:8px;line-height:1.2}
+    .card p{font-size:.82rem;color:var(--soft)}
+    @media(max-width:900px){.grid{grid-template-columns:repeat(3,1fr)}}
+    @media(max-width:560px){.grid{grid-template-columns:repeat(2,1fr)}}
 
     /* LOCATION */
     .loc-sec{background:var(--bg2)}
@@ -88,8 +92,11 @@
   <!-- HERO -->
   <div class="hero">
     <div class="wrap">
-      <img src="logo.png" alt="La Belle Pratas">
-      <h1>La Belle Pratas</h1>
+      <div class="logo-mark">
+        <span class="lm-name">La Belle</span>
+        <span class="lm-sub">Pratas</span>
+        <span class="lm-rule"></span>
+      </div>
       <p>Joias em prata 925 pra usar e valorizar todos os dias.</p>
       <div class="loc">Uberlândia · Minas Gerais</div>
     </div>
