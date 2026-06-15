@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Belle Pratas | Joias em prata 925 em Uberlândia</title>
+  <meta name="description" content="La Belle Pratas, loja de joias e acessórios em prata 925 em Uberlândia, MG. Anéis, brincos, colares, pulseiras e peças sob encomenda.">
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --ink:#1a1a1a; --soft:#5a5a5a; --line:#e3e0dc;
+      --bg:#ffffff; --bg2:#f4f2ef; --silver:#8b8b8b;
+    }
+    *{margin:0;padding:0;box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{font-family:'Montserrat',sans-serif;color:var(--ink);background:var(--bg);line-height:1.7;font-weight:300}
+    h1,h2,h3{font-family:'Cormorant Garamond',serif;font-weight:500;letter-spacing:.5px}
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+    section{padding:80px 0}
+
+    /* HEADER */
+    header{position:sticky;top:0;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:10}
+    .nav{display:flex;align-items:center;justify-content:space-between;height:70px}
+    .nav .brand{font-family:'Cormorant Garamond',serif;font-size:1.5rem;letter-spacing:2px}
+    .nav nav a{margin-left:28px;font-size:.78rem;letter-spacing:1.5px;text-transform:uppercase;color:var(--soft)}
+    .nav nav a:hover{color:var(--ink)}
+    @media(max-width:640px){.nav nav{display:none}}
+
+    /* HERO */
+    .hero{background:linear-gradient(135deg,#fafafa 0%,#e8e6e3 45%,#cfccc8 100%);text-align:center;padding:90px 0 80px}
+    .hero img{width:190px;height:190px;object-fit:contain;margin-bottom:18px}
+    .hero h1{font-size:3.2rem;line-height:1.1;margin-bottom:14px}
+    .hero p{font-size:1.05rem;color:var(--soft);max-width:520px;margin:0 auto;font-weight:300}
+    .hero .loc{margin-top:22px;font-size:.8rem;letter-spacing:2px;text-transform:uppercase;color:var(--silver)}
+    @media(max-width:640px){.hero h1{font-size:2.3rem}}
+
+    /* SECTIONS */
+    .label{font-size:.72rem;letter-spacing:3px;text-transform:uppercase;color:var(--silver);text-align:center;margin-bottom:10px}
+    h2{font-size:2.2rem;text-align:center;margin-bottom:26px}
+    .about p{max-width:680px;margin:0 auto 16px;text-align:center;color:var(--soft)}
+    .about{background:var(--bg2)}
+
+    /* PRODUCTS */
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px;margin-top:34px}
+    .card{border:1px solid var(--line);padding:34px 24px;text-align:center;background:#fff;transition:.25s}
+    .card:hover{box-shadow:0 8px 26px rgba(0,0,0,.06);transform:translateY(-3px)}
+    .card h3{font-size:1.35rem;margin-bottom:6px}
+    .card p{font-size:.85rem;color:var(--soft)}
+
+    /* LOCATION */
+    .loc-sec{background:var(--bg2)}
+    .loc-grid{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:center;margin-top:30px}
+    .loc-grid .info h3{font-size:1.5rem;margin-bottom:10px}
+    .loc-grid .info p{color:var(--soft);margin-bottom:6px}
+    .loc-grid iframe{width:100%;height:300px;border:1px solid var(--line);filter:grayscale(.2)}
+    @media(max-width:760px){.loc-grid{grid-template-columns:1fr}}
+
+    /* CONTACT */
+    .contact{text-align:center}
+    .contact .links{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-top:24px}
+    .btn{display:inline-block;border:1px solid var(--ink);padding:13px 30px;font-size:.78rem;letter-spacing:1.5px;text-transform:uppercase;transition:.25s}
+    .btn:hover{background:var(--ink);color:#fff}
+
+    /* FOOTER */
+    footer{background:var(--ink);color:#cbcbcb;text-align:center;padding:46px 24px;font-size:.82rem;line-height:1.9}
+    footer .fb{font-family:'Cormorant Garamond',serif;font-size:1.4rem;letter-spacing:2px;color:#fff;margin-bottom:10px}
+    footer .cnpj{color:#9a9a9a;font-size:.78rem}
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="wrap nav">
+      <span class="brand">LA BELLE</span>
+      <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#pecas">Peças</a>
+        <a href="#loja">Loja</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="wrap">
+      <img src="logo.png" alt="La Belle Pratas">
+      <h1>La Belle Pratas</h1>
+      <p>Joias em prata 925 pra usar e valorizar todos os dias.</p>
+      <div class="loc">Uberlândia · Minas Gerais</div>
+    </div>
+  </div>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="about">
+    <div class="wrap">
+      <div class="label">Quem somos</div>
+      <h2>Sobre a La Belle</h2>
+      <p>A La Belle Pratas é uma loja especializada em joias e acessórios de prata em Uberlândia. Trabalhamos com peças em prata 925, anéis, alianças, brincos, colares e pulseiras escolhidas pra durar e acompanhar cada momento.</p>
+      <p>Qualidade de verdade, atendimento próximo e o cuidado de quem entende de prata.</p>
+    </div>
+  </section>
+
+  <!-- PEÇAS -->
+  <section id="pecas">
+    <div class="wrap">
+      <div class="label">Nosso catálogo</div>
+      <h2>O que você encontra</h2>
+      <div class="grid">
+        <div class="card"><h3>Anéis e alianças</h3><p>Prata 925 pra todos os dias e pra ocasiões especiais.</p></div>
+        <div class="card"><h3>Brincos e argolas</h3><p>Do clássico ao moderno, do delicado ao marcante.</p></div>
+        <div class="card"><h3>Colares e pingentes</h3><p>Peças que valorizam cada produção.</p></div>
+        <div class="card"><h3>Pulseiras e braceletes</h3><p>Conforto e brilho no dia a dia.</p></div>
+        <div class="card"><h3>Sob encomenda</h3><p>Peças personalizadas do seu jeito.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOJA -->
+  <section id="loja" class="loc-sec">
+    <div class="wrap">
+      <div class="label">Venha conhecer</div>
+      <h2>Onde estamos</h2>
+      <div class="loc-grid">
+        <div class="info">
+          <h3>Loja física em Uberlândia</h3>
+          <p>Avenida José Fonseca e Silva, 295, loja 7</p>
+          <p>Luizote de Freitas, Uberlândia, MG</p>
+        </div>
+        <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=Avenida%20Jos%C3%A9%20Fonseca%20e%20Silva%2C%20295%2C%20Luizote%20de%20Freitas%2C%20Uberl%C3%A2ndia%2C%20MG&output=embed"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="contact">
+    <div class="wrap">
+      <div class="label">Fale com a gente</div>
+      <h2>Contato</h2>
+      <p style="color:var(--soft)">Acompanhe as novidades e fale com a loja pelo Instagram.</p>
+      <div class="links">
+        <a class="btn" href="https://www.instagram.com/uselabellepratas_/" target="_blank" rel="noopener">@uselabellepratas_</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="fb">La Belle Pratas</div>
+    <div>Avenida José Fonseca e Silva, 295, loja 7, Luizote de Freitas, Uberlândia, MG</div>
+    <div class="cnpj">La Belle Pratas Ltda · CNPJ 40.544.895/0001-40</div>
+    <div class="cnpj" style="margin-top:10px">© La Belle Pratas. Todos os direitos reservados.</div>
+  </footer>
+
+</body>
+</html>
